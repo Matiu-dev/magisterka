@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: postgres
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: any
+    ports:
+      - "5432:5432"
+    networks:
+      - NBP-APP
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - pg_data:/var/lib/postgresql/data/pgdata
+
+networks:
+  NBP-APP:
+    external: true
+
+volumes:
+  pg_data:
+    driver: local
+

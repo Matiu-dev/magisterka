@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  nbp-app8093:
+    image: matiuw/nbp-app8093:latest
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: any
+    ports:
+      - "8093:8093"
+    networks:
+      - NBP-APP
+
+networks:
+  NBP-APP:
+    external: true
+
