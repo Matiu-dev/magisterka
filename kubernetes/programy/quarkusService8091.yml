@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nbp-app8091
+spec:
+  selector:
+    app: nbp-app8091
+  ports:
+    - protocol: TCP
+      port: 8091
+      targetPort: 8091
+  type: LoadBalancer

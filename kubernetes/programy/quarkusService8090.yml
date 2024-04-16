@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nbp-app8090
+spec:
+  selector:
+    app: nbp-app8090
+  ports:
+    - protocol: TCP
+      port: 8090
+      targetPort: 8090
+  type: LoadBalancer

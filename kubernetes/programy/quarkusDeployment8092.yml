@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nbp-app8092
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nbp-app8092
+  template:
+    metadata:
+      labels:
+        app: nbp-app8092
+    spec:
+      containers:
+      - name: nbp-app8092
+        image: matiuw/nbp-apppostgres8092:latest

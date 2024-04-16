@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pgadmin-service
+spec:
+  selector:
+    app: pgadmin  # Etykieta, która identyfikuje pod pgAdmin
+  ports:
+    - protocol: TCP
+      port: 5050     # Port, na którym będzie działać serwis
+      targetPort: 5050  # Port, na którym działa pod pgAdmin
+  type: NodePort  # Typ serwisu - LoadBalancer, NodePort, ClusterIP itp.
+
