@@ -1,0 +1,1891 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.16)  22 MAY 2024 17:07
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex
+(/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./iiuwb.cls
+Document Class: iiuwb 2011/11/26 Institute of Informatics of UwB LaTeX class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box50
+\extrarowheight=\dimen140
+\NC@list=\toks18
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count194
+\float@exts=\toks20
+\float@box=\box52
+\@float@everytoks=\toks21
+\@floatcapt=\box53
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen143
+\l@unhyphenated=\language7
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+
+
+/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty:4254: Package babel Error: Unknown option 'polish'. Either you misspelled it
+(babel)                or the language definition file polish.ldf was not found.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4254 \ProcessOptions*
+                       
+Valid options are, among others: shorthands=, KeepShorthandsActive,
+activeacute, activegrave, noconfigs, safe=, main=, math=
+headfoot=, strings=, config=, hyphenmap=, or a language name.
+
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 4299.
+(/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2022/01/26 3.70 Nil language
+\l@nil=\language8
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count197
+\lst@gtempboxa=\box54
+\lst@token=\toks23
+\lst@length=\count198
+\lst@currlwidth=\dimen144
+\lst@column=\count199
+\lst@pos=\count266
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count267
+\lst@lineno=\count268
+\lst@maxwidth=\dimen147
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count269
+\lst@skipnumbers=\count270
+\lst@framebox=\box55
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen148
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count273
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count274
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen149
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count275
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip51
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box56
+\UL@hyphenbox=\box57
+\UL@skip=\skip52
+\UL@hook=\toks24
+\UL@height=\dimen152
+\UL@pe=\count281
+\UL@pixel=\dimen153
+\ULC@box=\box58
+Package: ulem 2019/11/18
+\ULdepth=\dimen154
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count282
+\l__pdf_internal_box=\box59
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count283
+\scratchdimen=\dimen155
+\scratchbox=\box60
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen156
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 50.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+\c@lstlisting=\count289
+Package hyperref Info: Link coloring OFF on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count290
+)
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [3
+
+] [4
+
+]
+Overfull \hbox (44.59467pt too wide) in paragraph at lines 63--64
+[]\T1/cmr/m/n/12 Aplikacje monolityczne polegaj¡ na jednoczesnym uruchomieniu wszystkich komponentów
+ []
+
+
+Overfull \hbox (6.61525pt too wide) in paragraph at lines 65--66
+[]\T1/cmr/m/n/12 Z drugiej strony aplikacje mikroserwisowe polegaj¡ na podziale serwisu na mniejsze
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 70.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/cmr/m/n/12 Pozwala na stopniowe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/cmr/m/n/12 przepisywanie cz¦±ci na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/cmr/m/n/12 Wszystkie komponenty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/cmr/m/n/12 s¡ tworzone oddzielnie
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 76--76
+\T1/cmr/m/n/12 co pozwala na lepsze ich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/cmr/m/n/12 skalowanie i mo»liwo±¢
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/cmr/m/n/12 osi¡gni¦cia lepszej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/cmr/m/n/12 Potrzeba wi¦cej czasu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/cmr/m/n/12 na dodanie nowych
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/cmr/m/n/12 Trudne testowanie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\T1/cmr/m/n/12 Poszczególne elementy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\T1/cmr/m/n/12 systemu s¡ zale»ne od
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\T1/cmr/m/n/12 siebie, co powoduje
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\T1/cmr/m/n/12 pojawienie si¦ bª¦du w
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 78--78
+\T1/cmr/m/n/12 innej cz¦±ci aplikacji po
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 78--78
+[]|\T1/cmr/m/n/12 Potrzebna jest dodatkowa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\T1/cmr/m/n/12 infrastruktura, która
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 78--78
+\T1/cmr/m/n/12 komponenty aplikacji np.
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/12 Mniejsza skalowalno±¢ ni»
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/12 w przypadku aplikacji
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 79--79
+\T1/cmr/m/n/12 bª¦du w jednym seriwsie,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/cmr/m/n/12 Szybsza komunikacja
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 80--80
+[]|\T1/cmr/m/n/12 Wydajno±¢ caªej aplikacji
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\T1/cmr/m/n/12 opó¹nie« w komunikacji
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 81--81
+[]|\T1/cmr/m/n/12 Šatwe do zarz¡dzania i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\T1/cmr/m/n/12 Tworzenie aplikacji
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/cmr/m/n/12 mikroserwisowej wymaga
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `cha:Konteneryzacja' on page 5 undefined on input line 87.
+
+
+Overfull \hbox (27.15695pt too wide) in paragraph at lines 87--88
+\T1/cmr/m/n/12 tak samo. Pozwala to programistom na wybór odno±nie u»ywanego systemu operacyjnego.
+ []
+
+
+LaTeX Warning: Reference `cha:Orkiestratory' on page 5 undefined on input line 89.
+
+
+Overfull \hbox (14.70491pt too wide) in paragraph at lines 89--90
+\T1/cmr/m/n/12 zasobów, monitorowanie wydajno±ci kontenerów, czy odbudowa kontenera w przypadku
+ []
+
+
+LaTeX Warning: Reference `cha:Konteneryzacja' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `cha:Aplikacja' on page 5 undefined on input line 91.
+
+
+LaTeX Warning: Reference `cha:Orkiestratory' on page 5 undefined on input line 91.
+
+
+Overfull \hbox (20.71461pt too wide) in paragraph at lines 91--92
+\T1/cmr/m/n/12 mo»liwo±ciami, komendami i sposobem dziaªania. Nast¦pnie zaprojektowanie aplikacji[]
+ []
+
+
+Overfull \hbox (7.29762pt too wide) in paragraph at lines 93--94
+\T1/cmr/m/n/12 lokalnie, a na koniec wykonanie testów, takich jak sprawdzenie obi¡»enia podzespoªów,
+ []
+
+
+LaTeX Warning: Reference `sec:Quarkus' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Reference `sec: Kubernetes' on page 5 undefined on input line 95.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
+[5
+
+] [6]
+
+LaTeX Warning: Reference `cha:Konteneryzacja' on page 7 undefined on input line 98.
+
+
+LaTeX Warning: Reference `cha:Orkiestratory' on page 7 undefined on input line 98.
+
+
+LaTeX Warning: Reference `cha:Aplikacja' on page 7 undefined on input line 98.
+
+
+LaTeX Warning: Reference `cha:Opis eksperymentÃ³w' on page 7 undefined on input line 98.
+
+
+LaTeX Warning: Reference `cha:Analiza Wynikow' on page 7 undefined on input line 98.
+
+
+Overfull \hbox (16.66225pt too wide) in paragraph at lines 98--99
+\T1/cmr/m/n/12 orkiestratorów: Docker Swarm, Kubernetes oraz Nomad. [] rozdziaª zostaª po±wi¦ciony
+ []
+
+[7] [8
+
+]
+Chapter 1.
+
+Overfull \hbox (18.57568pt too wide) in paragraph at lines 105--106
+[]\T1/cmr/m/n/12 Za pierwsze pocz¡tki konteneryzacji mo»na uzna¢ rok 1979. W tym roku wynaleziono
+ []
+
+
+Overfull \hbox (5.76268pt too wide) in paragraph at lines 109--110
+[]\T1/cmr/m/n/12 W r¦cznym budowaniu odizolowanego ±rodowiska wyst¦puje problem w przypadku
+ []
+
+
+Overfull \hbox (10.22003pt too wide) in paragraph at lines 109--110
+\T1/cmr/m/n/12 uruchamia¢. Z pomoc¡ przychodzi Docker za pomoc¡, którego z ªatwo±ci¡ uruchomimy
+ []
+
+
+LaTeX Warning: Reference `images and containers' on page 9 undefined on input line 114.
+
+
+Overfull \hbox (14.9535pt too wide) in paragraph at lines 118--119
+[]\T1/cmr/m/n/12 Drug¡ komend¡ jest \T1/cmr/bx/n/12 COPY \T1/cmr/m/n/12 za pomoc¡, której kopuje si¦ pliki z systemu gospodarza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[9
+
+]
+Overfull \hbox (4.711pt too wide) in paragraph at lines 152--153
+[]\T1/cmr/m/n/12 Docker pozwala na spakowanie aplikacji i uruchomienie jej w kontenerze. Operacja
+ []
+
+
+LaTeX Warning: Reference `cha:Orkiestratory' on page 10 undefined on input line 154.
+
+
+Overfull \hbox (19.82573pt too wide) in paragraph at lines 154--157
+[]\T1/cmr/m/n/12 Kontener Dockerowy jest to ±rodowisko uruchomieniowe ze wszystkimi zale»no±ciami,
+ []
+
+
+Overfull \hbox (6.82448pt too wide) in paragraph at lines 154--157
+\T1/cmr/m/n/12 zmiennych i dodanie danych. W celu efektywnego zarz¡dzania du»¡ ilo±ci¡ kontenerów
+ []
+
+
+Overfull \hbox (27.03105pt too wide) in paragraph at lines 160--161
+[]\T1/cmr/m/n/12 -- wy±wietla list¦ aktualnie uruchomionych kontenerów, po dodaniu parametru
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 165.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
+
+ []
+
+
+LaTeX Warning: Reference `sec:dockerfile' on page 10 undefined on input line 168.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
+
+ []
+
+
+LaTeX Warning: Reference `cha:Aplikacja' on page 11 undefined on input line 181.
+
+
+Overfull \hbox (13.61pt too wide) in paragraph at lines 184--185
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 ./mvnw package\T1/cmr/m/n/12 '' - przed zbudowaniem obrazu, nale»y zbudowa¢ caªa aplikacj¦
+ []
+
+
+Overfull \hbox (9.87546pt too wide) in paragraph at lines 191--192
+[]\T1/cmr/m/n/12 Wirtualizacja jest to proces tworzenia wartstwy mi¦dzy systemem hosta, a maszyn¡
+ []
+
+
+Overfull \hbox (18.25066pt too wide) in paragraph at lines 191--192
+\T1/cmr/m/n/12 niezale»nie. Oprogramowanien, które umo»liwia wykonanie wirtualizacji jest hypervisor. 
+ []
+
+
+Overfull \hbox (1.24797pt too wide) in paragraph at lines 193--194
+\T1/cmr/m/n/12 u»ywane s¡ zasoby i system operacyjny hosta. Do tego wykorzystywane jest specjalne
+ []
+
+
+LaTeX Warning: Reference `fig: Konteneryzacja i wirtualizacja' on page 11 undefined on input line 195.
+
+<kontenery_wirtualizacja.pdf, id=64, 1401.58641pt x 788.86719pt>
+File: kontenery_wirtualizacja.pdf Graphic file (type pdf)
+<use kontenery_wirtualizacja.pdf>
+Package pdftex.def Info: kontenery_wirtualizacja.pdf  used on input line 199.
+(pdftex.def)             Requested size: 341.43306pt x 192.17274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\T1/cmr/m/n/12 W powodu u»ywania
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 212--212
+\T1/cmr/m/n/12 potrzebuj¡ maªo zasobów
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 212--212
+[]|\T1/cmr/m/n/12 Ka»da maszyna wirtualna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+\T1/cmr/m/n/12 korzysta z wªasnego
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+\T1/cmr/m/n/12 systemu operacyjnego,
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 212--212
+\T1/cmr/m/n/12 wi¦c do stworzenia wielu
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 212--212
+\T1/cmr/m/n/12 takich maszyn potrzebne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\T1/cmr/m/n/12 Kontenery szybciej si¦
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\T1/cmr/m/n/12 uruchamiaj¡, poniewa»
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\T1/cmr/m/n/12 Maszyny wirtualne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\T1/cmr/m/n/12 potrzebuj¡ du»o czasu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]|\T1/cmr/m/n/12 Kontenery u»ywaj¡
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/cmr/m/n/12 zasobów sprz¦towych
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 214--214
+\T1/cmr/m/n/12 hosta, wi¦c w przyadku
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/cmr/m/n/12 wyst¡pienia luk w
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 214--214
+\T1/cmr/m/n/12 które mog¡ wyst¡pi¢ w
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/cmr/m/n/12 nie maj¡ wpªywu na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/cmr/m/n/12 dziaªanie innej maszyny
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 215--215
+[]|\T1/cmr/m/n/12 Kontenery mo»na ªatwo i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\T1/cmr/m/n/12 Maszyny wirtualne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/cmr/m/n/12 potrzebuj¡, wi¦cej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/cmr/m/n/12 czasu na uruchomienie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/cmr/m/n/12 oraz wymagaj¡
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\T1/cmr/m/n/12 ich odpowiedniego
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\T1/cmr/m/n/12 Jeden obraz zajmuje
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\T1/cmr/m/n/12 jednostk¦ rz¦du MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\T1/cmr/m/n/12 Maszyny wirtualne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\T1/cmr/m/n/12 potrzebuj¡, wi¦cej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+\T1/cmr/m/n/12 miejsca, gdy» jedna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]|\T1/cmr/m/n/12 Kompatybilne tylko z
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\T1/cmr/m/n/12 dystrybucjami Linuxa.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\T1/cmr/bx/n/12 Desktop \T1/cmr/m/n/12 umo»liwia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+[]|\T1/cmr/m/n/12 Maszyny wirtualne s¡
+ []
+
+
+Overfull \hbox (28.17441pt too wide) in paragraph at lines 207--221
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 27.68274pt on input line 222.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.1365pt too wide) in paragraph at lines 226--227
+[]\T1/cmr/m/n/12 Podman jest narz¦dziem Open Source stworzonym przez firm¦ Red Hat. Podobnie
+ []
+
+
+Overfull \hbox (10.02023pt too wide) in paragraph at lines 226--227
+\T1/cmr/m/n/12 jak Docker sªu»y do tworzenia i zarz¡dzania kontenerami. W tym rozdziale przedstawi¦
+ []
+
+[11 <./kontenery_wirtualizacja.pdf>]
+<ArchitekturaDockeriPodman.pdf, id=76, 926.4613pt x 593.21625pt>
+File: ArchitekturaDockeriPodman.pdf Graphic file (type pdf)
+<use ArchitekturaDockeriPodman.pdf>
+Package pdftex.def Info: ArchitekturaDockeriPodman.pdf  used on input line 230.
+(pdftex.def)             Requested size: 341.43306pt x 218.6176pt.
+
+
+LaTeX Warning: Reference `fig: Architektura Dockera i Podmana' on page 12 undefined on input line 235.
+
+
+Overfull \hbox (4.21744pt too wide) in paragraph at lines 235--236
+\T1/cmr/m/n/12 deamona. Obsªuga i zarz¡dzanie kontenerami odbywa si¦ bezpo±rednio przez Podman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+ []
+
+[12 <./ArchitekturaDockeriPodman.pdf>]
+
+LaTeX Warning: Reference `sec:Docker Swarm' on page 13 undefined on input line 252.
+
+
+LaTeX Warning: Reference `sec: Kubernetes' on page 13 undefined on input line 252.
+
+[13] [14]
+Chapter 2.
+
+Overfull \hbox (35.99155pt too wide) in paragraph at lines 259--260
+\T1/cmr/m/n/12 testowania orkiestratorów. Skªada si¦ ona z API, bazy danych i serwisu uwierzytalniaj¡cego. 
+ []
+
+
+Overfull \hbox (32.55602pt too wide) in paragraph at lines 264--265
+[]\T1/cmr/m/n/12 Jest to obiektowy j¦zyk programowania do tworzenia aplikacji webowych, desktopowych
+ []
+
+
+Overfull \hbox (1.07135pt too wide) in paragraph at lines 272--273
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 public\T1/cmr/m/n/12 '' - u»ywaj¡c tego specyfikatora mo»na si¦ odwoªa¢ do klasy (domy±lne),
+ []
+
+
+Overfull \hbox (5.21619pt too wide) in paragraph at lines 274--275
+\T1/cmr/m/n/12 dost¦pne w klasie w której zostaªy one zdefiniowane oraz dla klas dziedzicz¡cych, 
+ []
+
+[15
+
+
+]
+
+LaTeX Warning: Citation `Java' on page 16 undefined on input line 285.
+
+
+LaTeX Warning: Reference `sec:Maven' on page 16 undefined on input line 293.
+
+
+Overfull \hbox (1.49835pt too wide) in paragraph at lines 292--294
+[]\T1/cmr/m/n/12 Do uruchomienia aplikacji potrzebne jest dodatkowe narz¦dzie, gdy» \T1/cmr/bx/n/12 Framework
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
+
+Overfull \hbox (3.01349pt too wide) in paragraph at lines 297--299
+\T1/cmr/m/n/12 na podstawie ªadowania klas itd. W odró»nieniu od tradycyjnych frameworków,
+ []
+
+
+Overfull \hbox (16.93065pt too wide) in paragraph at lines 297--299
+\T1/cmr/m/n/12 które s¡ potrzebne przez orkiestratory co równie» poprawia szybko±¢ uruchamiana. 
+ []
+
+[16]
+Overfull \hbox (27.99252pt too wide) in paragraph at lines 301--303
+\T1/cmr/m/n/12 aplikacji mamy do dyspozycji narz¦dzia sªu»¡ce do jej debugowania oraz sprawdzanie
+ []
+
+
+Overfull \hbox (13.72025pt too wide) in paragraph at lines 301--303
+\T1/cmr/bx/n/12 ConfigMaps i Secretów \T1/cmr/m/n/12 jako plików konfiguracyjnych oraz mo»liwo±¢ tworzenia
+ []
+
+
+Overfull \hbox (23.71779pt too wide) in paragraph at lines 301--303
+\T1/cmr/m/n/12 i debugowania aplikacji w tym samym ±rodowisku, gdzie aplikacja jest uruchomiona. 
+ []
+
+
+Overfull \hbox (5.47726pt too wide) in paragraph at lines 303--305
+\T1/cmr/m/n/12 Ten podpunkt opisuje elementy, które pozwalaj¡ programi±cie skupi¢ si¦ gªównie
+ []
+
+
+LaTeX Warning: Citation `Quarkus' on page 17 undefined on input line 307.
+
+
+Overfull \hbox (49.7155pt too wide) in paragraph at lines 312--313
+[]\T1/cmr/m/n/12 Endpoint obliczania kursu: \T1/cmr/bx/n/12 GET localhost:8080/currency/currencyExchangeValue 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+[17]
+Overfull \hbox (14.53287pt too wide) in paragraph at lines 351--352
+[]\T1/cmr/m/n/12 Endpoint rejestruje nowego u»ytkownika I przy u»yciu warto±ci username I password
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+
+Overfull \hbox (10.01399pt too wide) in paragraph at lines 394--395
+[]\T1/cmr/m/n/12 -- ,,Bearer token z odpowiedni¡ rol¡. W przeciwnym wypadku zostanie zwrócony
+ []
+
+
+Overfull \hbox (61.50429pt too wide) in paragraph at lines 397--399
+[]\T1/cmr/m/n/12 Endpoint usuwania waluty: \T1/cmr/bx/n/12 DELETE localhost:8080/currency/deleteCurrency/code 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+ []
+
+[18]
+Overfull \hbox (138.47571pt too wide) in paragraph at lines 405--406
+[]\T1/cmr/m/n/12 Endpoint aktualizacji waluty: \T1/cmr/bx/n/12 PUT localhost:8080/currency/putCurrency/table/table/code/code 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+LaTeX Warning: Citation `Maven' on page 19 undefined on input line 418.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+
+Overfull \hbox (2.53346pt too wide) in paragraph at lines 422--423
+[]\T1/cmr/m/n/12 Caªa konfiguracja Mavena jest zapisana w pliku pom.xml, który wykona wszystkie
+ []
+
+
+Overfull \hbox (23.30678pt too wide) in paragraph at lines 424--430
+[]\T1/cmr/m/n/12 <project> <modelVersion>4.0.0</modelVersion> <groupId>org.acme</groupId>
+ []
+
+
+Overfull \hbox (16.67221pt too wide) in paragraph at lines 424--430
+\T1/cmr/m/n/12 <artifactId>code-with-quarkus</artifactId> <version>1.0.0-SNAPSHOT</version>
+ []
+
+
+Overfull \hbox (15.7913pt too wide) in paragraph at lines 434--435
+\T1/cmr/bx/n/12 compiler \T1/cmr/m/n/12 - kompiluje pliki ¹ródªowe, \T1/cmr/bx/n/12 install \T1/cmr/m/n/12 - tworzy i instaluje plik wykonywalny
+ []
+
+[19]
+Overfull \hbox (11.39313pt too wide) in paragraph at lines 435--436
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Dependencies\T1/cmr/m/n/12 '' - opisuje zale»no±ci pobrane ze zdalnego repozytorium Mavena.
+ []
+
+
+Overfull \hbox (16.91492pt too wide) in paragraph at lines 448--449
+[]\T1/cmr/m/n/12 -- mo»na ustawi¢ headery np. Accept: application/json
+ []
+
+
+Overfull \hbox (11.1397pt too wide) in paragraph at lines 456--457
+[]\T1/cmr/m/n/12 Jest to system zarz¡dzania relacyjnymi bazami danych (RDBMS). Zostaª stworzony
+ []
+
+
+Overfull \hbox (9.24368pt too wide) in paragraph at lines 461--462
+\T1/cmr/m/n/12 mechanizmu wystarczy, »e dodamy adnotacj¦ \T1/cmr/bx/n/12 @Entity \T1/cmr/m/n/12 przed nazw¡ klasy i oznaczymy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+
+Overfull \hbox (5.89594pt too wide) in paragraph at lines 489--490
+[]\T1/cmr/m/n/12 Jest to narz¦dzie \T1/cmr/bx/n/12 open-source \T1/cmr/m/n/12 wspomagaj¡ce prac¦ w baz¡ danych \T1/cmr/bx/n/12 PostgreSQL\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (2.27055pt too wide) in paragraph at lines 495--499
+\T1/cmr/m/n/12 CSV jak i równie» mo»lwo±¢ stworzenia i wyexportowania kodu SQL tworz¡cego
+ []
+
+<ERD.pdf, id=161, 169.36475pt x 390.66855pt>
+File: ERD.pdf Graphic file (type pdf)
+<use ERD.pdf>
+Package pdftex.def Info: ERD.pdf  used on input line 505.
+(pdftex.def)             Requested size: 341.47314pt x 569.11354pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (9.94287pt too wide) in paragraph at lines 513--514
+[]\T1/cmr/m/n/12 Jest to narz¦dzie open-source sªu»¡ce do uwierzytelniania u»ytkowników i dost¦pem
+ []
+
+[21] [22 <./ERD.pdf>]
+Overfull \hbox (18.52252pt too wide) in paragraph at lines 523--524
+[]\T1/cmr/m/n/12 Keylocak posiada równie» wsparcie dla standardowych protokoªów komunikacyjnych,
+ []
+
+
+LaTeX Warning: Reference `sec:endpointy' on page 23 undefined on input line 543.
+
+
+Overfull \hbox (31.77216pt too wide) in paragraph at lines 543--544
+[]\T1/cmr/m/n/12 Pierwsze polecenie w powy»szym kodzie pobiera \T1/cmr/bx/n/12 token \T1/cmr/m/n/12 przy prawidªowym zalogowaniu.
+ []
+
+
+Overfull \hbox (5.73073pt too wide) in paragraph at lines 543--544
+\T1/cmr/m/n/12 Ten \T1/cmr/bx/n/12 token \T1/cmr/m/n/12 pó¹niej jest potrzebny, aby wykona¢ akcje dost¦pne tylko dla zalogowanych
+ []
+
+
+Overfull \hbox (10.88077pt too wide) in paragraph at lines 543--544
+\T1/cmr/m/n/12 oraz portu, czyli \T1/cmr/bx/n/12 http://localhost:8180/ \T1/cmr/m/n/12 oraz kolejnych warto±ci, które s¡ specificzne
+ []
+
+
+Overfull \hbox (33.39058pt too wide) in paragraph at lines 543--544
+\T1/cmr/m/n/12 dla tego narz¦dzia i s¡ one ustawione domy±lnie, czyli \T1/cmr/bx/n/12 realms/master/protocol/openid-
+ []
+
+
+LaTeX Warning: Reference `sec:endpointy' on page 23 undefined on input line 545.
+
+[23] [24
+
+]
+Chapter 3.
+
+Overfull \hbox (35.39282pt too wide) in paragraph at lines 552--561
+[]\T1/cmr/m/n/12 Kontenery dostarczaj¡ mo»liwo±¢ tworzenia oprogramowania dla rozwi¡za« chmurowych
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--561
+
+ []
+
+
+Overfull \hbox (12.1223pt too wide) in paragraph at lines 565--576
+[]\T1/cmr/bx/n/12 Continuous Integration (CI) \T1/cmr/m/n/12 odnosi si¦ do integrowania, budowania i testowania
+ []
+
+
+Overfull \hbox (17.37239pt too wide) in paragraph at lines 565--576
+\T1/cmr/m/n/12 czy wyst¡piªy jakie± bª¦dy czy wszystko przebiegªo pomy±lnie. \T1/cmr/bx/n/12 Continous Integration
+ []
+
+
+Overfull \hbox (2.04414pt too wide) in paragraph at lines 577--582
+\T1/cmr/m/n/12 wyst¦puje wtedy, kiedy kto± zaaplauduje zmiane na zdalnym repozytorium i przejdzie
+ []
+
+
+LaTeX Warning: Citation `DockerSwarm' on page 25 undefined on input line 594.
+
+
+LaTeX Warning: Reference `cha:Opis eksperymentÃ³w' on page 25 undefined on input line 599.
+
+
+Overfull \hbox (11.56879pt too wide) in paragraph at lines 601--605
+[]\T1/cmr/m/n/12 Jeszcze przed rozpocz¦ciem konfiguracji, zostaª stworzony kontener dla \T1/cmr/bx/n/12 Keycloaka\T1/cmr/m/n/12 ,
+ []
+
+[25
+
+]
+Overfull \hbox (6.3166pt too wide) in paragraph at lines 658--663
+\T1/cmr/m/n/12 utworzonych na ró»nych klastrach orkiestratora.Je±li nie utworzymy sieci to utworzone
+ []
+
+[26]
+Overfull \hbox (28.01173pt too wide) in paragraph at lines 702--708
+\T1/cmr/m/n/12 na 1, port na 5432. W \T1/cmr/bx/n/12 environment \T1/cmr/m/n/12 zostaªo ustawione hasªo oraz miejsce magazynowania
+ []
+
+[27]
+
+LaTeX Warning: Reference `fig: Architektura aplikacji w Docker Swarmie' on page 28 undefined on input line 746.
+
+<swarm/AplikacjaDockerSwarm.pdf, id=287, 773.05812pt x 521.64888pt>
+File: swarm/AplikacjaDockerSwarm.pdf Graphic file (type pdf)
+<use swarm/AplikacjaDockerSwarm.pdf>
+Package pdftex.def Info: swarm/AplikacjaDockerSwarm.pdf  used on input line 750.
+(pdftex.def)             Requested size: 341.43306pt x 230.39383pt.
+
+LaTeX Warning: Citation `DockerSwarm' on page 28 undefined on input line 756.
+
+
+Overfull \hbox (33.10184pt too wide) in paragraph at lines 761--786
+[]\T1/cmr/m/n/12 Architektura Kubernetesa skªada si¦ z przynajmniej jednego \T1/cmr/bx/n/12 master node \T1/cmr/m/n/12 poª¡czonego
+ []
+
+
+Overfull \hbox (3.8586pt too wide) in paragraph at lines 761--786
+\T1/cmr/m/n/12 którego zadaniem jest kontrola nad tym co si¦ dzieje wewn¡trz klastra. Jego zadaniem
+ []
+
+
+Overfull \hbox (36.15678pt too wide) in paragraph at lines 761--786
+\T1/cmr/m/n/12 procesem jest \T1/cmr/bx/n/12 Scheduler\T1/cmr/m/n/12 , którego zadaniem jest obserwowanie API serwera w poszukiwaniu
+ []
+
+[28 <./swarm/AplikacjaDockerSwarm.pdf>]
+Overfull \hbox (29.6151pt too wide) in paragraph at lines 787--796
+[]\T1/cmr/m/n/12 Do uruchomienie Kubernetesa lokalnie na komputerze zostaª wykorzystany \T1/cmr/bx/n/12 Minikube\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (14.49452pt too wide) in paragraph at lines 815--823
+[]\T1/cmr/m/n/12 Pod - najmniejsza jednostka w \T1/cmr/bx/n/12 Kubernetesie\T1/cmr/m/n/12 , jest to abstrakcja nad kontenerem.
+ []
+
+
+Overfull \hbox (1.75719pt too wide) in paragraph at lines 836--843
+\T1/cmr/m/n/12 sytuacji, gdyby zaszªa potrzeba zmiany nazwy aplikacji to wtedy trzeba zmieni¢
+ []
+
+
+Overfull \hbox (42.12169pt too wide) in paragraph at lines 844--853
+\T1/cmr/m/n/12 zastosowaniem secretów mo»e by¢ trzymanie wewn¡trz nich zmiennych ±rodowiskowych
+ []
+
+[29]
+Overfull \hbox (12.78448pt too wide) in paragraph at lines 861--875
+[]\T1/cmr/m/n/12 Deployment - w czasie tworzenia i dziaªania aplikacji wyst¦puj¡ bª¦dy powoduj¡ce
+ []
+
+
+Overfull \hbox (4.00887pt too wide) in paragraph at lines 876--881
+\T1/cmr/m/n/12 deployment jego zadaniem jest replikacja podów oraz ich skalowanie, ale równie»
+ []
+
+
+LaTeX Warning: Citation `Kubernetes' on page 30 undefined on input line 885.
+
+
+Overfull \hbox (36.3697pt too wide) in paragraph at lines 889--896
+[]\T1/cmr/m/n/12 Do stworzenia ka»dego elementu Kubernetesa zostaªy wykorzystane pliki konfiguracyjne,
+ []
+
+
+Overfull \hbox (5.91415pt too wide) in paragraph at lines 889--896
+\T1/cmr/m/n/12 które skªadaj¡ si¦ z nast¦puj¡cych 3 cz¦±ci. Pocz¡tek ka»dego pliku zawiera informacje
+ []
+
+
+Overfull \hbox (1.68306pt too wide) in paragraph at lines 889--896
+\T1/cmr/m/n/12 Pierwsza cz¦±¢ zawiera informacje o metadatach, druga cz¦±¢ informuje o specyfikacji,
+ []
+
+
+Overfull \hbox (14.1543pt too wide) in paragraph at lines 897--899
+[]\T1/cmr/m/n/12 Stworzenie bazy danych za pomoc¡ komendy \T1/cmr/bx/n/12 kubectl apply -f postgresPod.yml. 
+ []
+
+[30] [31]
+Overfull \hbox (9.95238pt too wide) in paragraph at lines 990--995
+\T1/cmr/m/n/12 zrobi¢ na 2 sposoby. Z u»yciem \T1/cmr/bx/n/12 NodePortu \T1/cmr/m/n/12 oraz \T1/cmr/bx/n/12 LoadBalancera\T1/cmr/m/n/12 . W tym przypadku
+ []
+
+
+Overfull \hbox (5.70541pt too wide) in paragraph at lines 990--995
+\T1/cmr/m/n/12 klastra u»ywaj¡c IP klastra jako bram¦. Tunnel wystawia zewn¦trzne IP bezpo±rednio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--995
+
+ []
+
+
+LaTeX Warning: Reference `fig: Architektura aplikacji w Kubernetesie' on page 32 undefined on input line 1009.
+
+<kubernetes/AplikacjaKubernetes.pdf, id=368, 555.5154pt x 471.21045pt>
+File: kubernetes/AplikacjaKubernetes.pdf Graphic file (type pdf)
+<use kubernetes/AplikacjaKubernetes.pdf>
+Package pdftex.def Info: kubernetes/AplikacjaKubernetes.pdf  used on input line 1013.
+(pdftex.def)             Requested size: 341.43306pt x 289.62373pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (18.12758pt too wide) in paragraph at lines 1024--1028
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Inteligentne zarz¡dzanie zasobami\T1/cmr/m/n/12 '' - Nomad optymalizuje zasoby przypisane
+ []
+
+[32]
+Overfull \hbox (4.99542pt too wide) in paragraph at lines 1028--1031
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Samo regeneracja\T1/cmr/m/n/12 '' - staªe spawdzanie i kontrola nad aktywnymi kontenerami
+ []
+
+
+Overfull \hbox (53.33842pt too wide) in paragraph at lines 1031--1035
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Ci¡gªe dziaªanie aplikacji\T1/cmr/m/n/12 '' - wsparcie dla wielu strategii aktualizacji oprogramowania,
+ []
+
+
+Overfull \hbox (19.11061pt too wide) in paragraph at lines 1044--1048
+\T1/cmr/m/n/12 zarz¡dzanie kontenerami, aplikacjami Java maszynami wirtualnymi to w Nomadzie
+ []
+
+[33 <./kubernetes/AplikacjaKubernetes.pdf>]
+Overfull \hbox (25.56274pt too wide) in paragraph at lines 1057--1061
+\T1/cmr/m/n/12 Sprawdza czy jakie± zadania musz¡ by¢ przydzielone. Kiedy agent jest uruchomiony,
+ []
+
+
+Overfull \hbox (1.49614pt too wide) in paragraph at lines 1061--1069
+\T1/cmr/m/n/12 równie» jakie zadania na jakich w¦zªach klienckich powinny zosta¢ umieszczone,
+ []
+
+
+Overfull \hbox (18.72522pt too wide) in paragraph at lines 1069--1077
+\T1/cmr/m/n/12 aplikacji, poniewa» mo»na szybko i ªatwo uruchamia¢ aplikacje bez skomplikowanej
+ []
+
+
+Overfull \hbox (13.81573pt too wide) in paragraph at lines 1069--1077
+\T1/cmr/m/n/12 konfiguracji. Agent dziaªa jednocze±nie jako klient i serwer, co uªatwia testowanie.
+ []
+
+
+LaTeX Warning: Citation `Nomadwww' on page 34 undefined on input line 1099.
+
+
+Overfull \hbox (6.47986pt too wide) in paragraph at lines 1098--1100
+[]\T1/cmr/m/n/12 Dokªadny opis tych elementów Nomada mo»na znale¹¢ w dokumentacji technicznej
+ []
+
+
+LaTeX Warning: Reference `sec:Consul' on page 34 undefined on input line 1108.
+
+[34] [35]
+Overfull \hbox (73.71263pt too wide) in paragraph at lines 1192--1194
+[]\T1/cmr/m/n/12 Nast¦pnie kod uruchamiaj¡cy aplikacj¦ \T1/cmr/bx/n/12 nomad job run -hcl1 nbpAppQuarkus.nomad.hcl\T1/cmr/m/n/12 : 
+ []
+
+[36]
+<nomad/AplikacjaNomad.pdf, id=521, 511.86232pt x 471.21045pt>
+File: nomad/AplikacjaNomad.pdf Graphic file (type pdf)
+<use nomad/AplikacjaNomad.pdf>
+Package pdftex.def Info: nomad/AplikacjaNomad.pdf  used on input line 1227.
+(pdftex.def)             Requested size: 341.43306pt x 314.32167pt.
+
+
+LaTeX Warning: Citation `Consulwww' on page 37 undefined on input line 1233.
+
+
+Overfull \hbox (2.45331pt too wide) in paragraph at lines 1232--1234
+[]\T1/cmr/m/n/12 Jest to narz¦dzie stworzone przez firm¦ HasiCorp. Link do dokumentacji dost¦pny
+ []
+
+[37 <./nomad/AplikacjaNomad.pdf>] [38
+
+]
+Chapter 4.
+
+Overfull \hbox (19.93004pt too wide) in paragraph at lines 1244--1245
+[]\T1/cmr/m/n/12 Stanowiskiem do testowania jest komputer stacjonarny o nast¦puj¡cych parametrach. 
+ []
+
+
+Overfull \hbox (24.89987pt too wide) in paragraph at lines 1255--1255
+[]\T1/cmr/bx/n/17.28 Eksperyment obci¡»enia procesora i u»ycia pami¦ci 
+ []
+
+
+Overfull \hbox (36.20734pt too wide) in paragraph at lines 1257--1264
+[]\T1/cmr/m/n/12 W tym eksperymencie zostaªy przeprowadzone testy u»ycia najwa»niejszych parametrów
+ []
+
+[39
+
+]
+Overfull \hbox (2.63763pt too wide) in paragraph at lines 1286--1287
+[]\T1/cmr/m/n/12 Jest to zbiór narz¦dzi do monitorowania u»ytych zasobów przez serwisy w \T1/cmr/bx/n/12 Docker
+ []
+
+
+Overfull \hbox (14.21399pt too wide) in paragraph at lines 1289--1290
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Prometheus\T1/cmr/m/n/12 '' - narz¦dzie \T1/cmr/bx/n/12 open source \T1/cmr/m/n/12 sªu»¡ce do monitorowania, gromadzenia
+ []
+
+
+Overfull \hbox (38.34084pt too wide) in paragraph at lines 1291--1292
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 cAdvisor\T1/cmr/m/n/12 '' - jest to narz¦dzie \T1/cmr/bx/n/12 pen source \T1/cmr/m/n/12 stworzone przez \T1/cmr/bx/n/12 Google \T1/cmr/m/n/12 do monitorowania
+ []
+
+
+Overfull \hbox (3.56935pt too wide) in paragraph at lines 1292--1293
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 alertmanager\T1/cmr/m/n/12 '' - sªu»y do odbierania i przetwarzania alertów z takich narz¦dzi
+ []
+
+
+Overfull \hbox (7.88101pt too wide) in paragraph at lines 1292--1293
+\T1/cmr/m/n/12 jak \T1/cmr/bx/n/12 Prometheus\T1/cmr/m/n/12 . Odpowiednio przetwarza te dane usuwaj¡c duplikaty, grupuje
+ []
+
+
+Overfull \hbox (39.64728pt too wide) in paragraph at lines 1293--1294
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 unsee\T1/cmr/m/n/12 '' - narz¦dzie do wizualizacji i zarz¡dzania alertami w systemach monitorowania, 
+ []
+
+
+LaTeX Warning: Citation `DockerSwarm' on page 40 undefined on input line 1299.
+
+
+Overfull \hbox (1.91772pt too wide) in paragraph at lines 1303--1304
+[]\T1/cmr/m/n/12 Czas budowania jest istotnym elementem porównawczym mi¦dzy orkiestratorami.
+ []
+
+
+Overfull \hbox (2.66391pt too wide) in paragraph at lines 1305--1306
+\T1/cmr/m/n/12 rozpocz¦cia budowania aplikacji, a» do uzyskania prawidªowej odpowiedzi z zapytania
+ []
+
+[40]
+
+/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex:1331: LaTeX Error: Invalid UTF-8 byte sequence (Å\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1331         printf("BÅ‚Ä…d 
+                              podczas otwierania pliku.\n");
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex:1331: LaTeX Error: Invalid UTF-8 byte "82.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1331         printf("BÅ‚Ä…d 
+                              podczas otwierania pliku.\n");
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex:1331: LaTeX Error: Invalid UTF-8 byte sequence (Ä\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1331         printf("BÅ‚Ä…d 
+                              podczas otwierania pliku.\n");
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/home/matiu/Public/pracadyplomowa/pracaOffline/main.tex:1331: LaTeX Error: Invalid UTF-8 byte "85.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1331         printf("BÅ‚Ä…d 
+                              podczas otwierania pliku.\n");
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+
+LaTeX Warning: Reference `sec:StartAplikacji' on page 42 undefined on input line 1385.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1433
+
+ []
+
+[43] [44]
+Chapter 5.
+
+LaTeX Warning: Reference `fig: Uzycie procesora' on page 45 undefined on input line 1445.
+
+<uzycieProcesora.pdf, id=680, 356.796pt x 212.27104pt>
+File: uzycieProcesora.pdf Graphic file (type pdf)
+<use uzycieProcesora.pdf>
+Package pdftex.def Info: uzycieProcesora.pdf  used on input line 1454.
+(pdftex.def)             Requested size: 341.43306pt x 203.13655pt.
+[45
+
+
+ <./uzycieProcesora.pdf>]
+<wynikiUzyciePamieci.pdf, id=693, 357.54881pt x 208.50697pt>
+File: wynikiUzyciePamieci.pdf Graphic file (type pdf)
+<use wynikiUzyciePamieci.pdf>
+Package pdftex.def Info: wynikiUzyciePamieci.pdf  used on input line 1473.
+(pdftex.def)             Requested size: 341.43306pt x 199.11768pt.
+
+
+LaTeX Warning: Reference `fig: Uzycie pamieci' on page 46 undefined on input line 1479.
+
+
+Overfull \hbox (1.40125pt too wide) in paragraph at lines 1478--1491
+[]\T1/cmr/m/n/12 Otrzymane wyniki u»ycia pami¦ci zostaªy ukazane na rysunku []. U»ycie pami¦ci
+ []
+
+
+Overfull \hbox (7.38934pt too wide) in paragraph at lines 1478--1491
+\T1/cmr/m/n/12 nowych replik, gdzie najgorzej poradziª sobie Docker Swarm, a wyniki dla Kubernetesa
+ []
+
+
+Overfull \hbox (19.62126pt too wide) in paragraph at lines 1478--1491
+\T1/cmr/m/n/12 uruchomienia jednocze±nie tych replik. Spowodowane jest to odpowiednim zarz¡dzaniem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1478--1491
+
+ []
+
+
+Overfull \hbox (14.37851pt too wide) in paragraph at lines 1506--1512
+\T1/cmr/m/n/12 przekroczenia limitów lub w przypadku, gdy nie b¦dzie ju» podów o ni»szym priorytecie,
+ []
+
+[46 <./wynikiUzyciePamieci.pdf>]
+Overfull \hbox (0.84859pt too wide) in paragraph at lines 1538--1547
+[]\T1/cmr/m/n/12 ,,\T1/cmr/bx/n/12 Burstable\T1/cmr/m/n/12 '' - pody w tym trybie maj¡ ustalone minimalne gwarantowane zasoby
+ []
+
+
+Overfull \hbox (6.8081pt too wide) in paragraph at lines 1538--1547
+\T1/cmr/m/n/12 jest sprecyzowany to domy±lnie zasobami noda, wi¦c odpowiedzalno±¢ za przydzielanie
+ []
+
+
+Overfull \hbox (21.16788pt too wide) in paragraph at lines 1578--1582
+[]\T1/cmr/m/n/12 Pody w tej kategorii nie speªniaj¡ kryteriów tak jak w dwóch poprzednich kategoriach.
+ []
+
+
+Overfull \hbox (4.55873pt too wide) in paragraph at lines 1583--1585
+[]\T1/cmr/m/n/12 Dodatkowo kryteria, które zawsze musz¡ by¢ zachowane bez wzgl¦du na posiadana
+ []
+
+
+Overfull \hbox (9.58864pt too wide) in paragraph at lines 1587--1590
+[]\T1/cmr/m/n/12 jak kontener przywªaszczy sobie zasobów poza ustalony limit to zostanie usuni¦ty
+ []
+
+[47]
+Overfull \hbox (11.03926pt too wide) in paragraph at lines 1602--1616
+\T1/cmr/m/n/12 przetwarzany przez evaluation brokera. Sªu»y on do zarz¡dzania kolejk¡ z oczekuj¡cych
+ []
+
+
+Overfull \hbox (10.6233pt too wide) in paragraph at lines 1602--1616
+\T1/cmr/m/n/12 algorytmu takiego jak \T1/cmr/bx/n/12 bin packing \T1/cmr/m/n/12 oraz reguª \T1/cmr/bx/n/12 anti-affinity \T1/cmr/m/n/12 do optymalizacji zasobów.
+ []
+
+<nomadalokacja.pdf, id=722, 703.80641pt x 314.64252pt>
+File: nomadalokacja.pdf Graphic file (type pdf)
+<use nomadalokacja.pdf>
+Package pdftex.def Info: nomadalokacja.pdf  used on input line 1619.
+(pdftex.def)             Requested size: 341.43306pt x 152.64464pt.
+
+Overfull \hbox (10.0929pt too wide) in paragraph at lines 1637--1641
+\T1/cmr/m/n/12 mo»liwe jest przypisanie warto±ci maksylanych i minialnych. Co nie jest wystarczaj¡ce,
+ []
+
+[48 <./nomadalokacja.pdf>]
+
+LaTeX Warning: Reference `fig: Czas startu aplikacji' on page 49 undefined on input line 1658.
+
+
+LaTeX Warning: Reference `sec:Zarzadzanie zasobami' on page 49 undefined on input line 1669.
+
+
+Overfull \hbox (9.58624pt too wide) in paragraph at lines 1657--1680
+\T1/cmr/m/n/12 wi¦ksz¡ elastyczno±¢ i funkcjonalno±¢. Nomad uzyskaª wynik 5,31s. Jest to nieznacznie
+ []
+
+
+Overfull \hbox (34.13766pt too wide) in paragraph at lines 1657--1680
+\T1/cmr/m/n/12 gorszy wynik ni» w przypadku Kubernetesa. Taki wynik mógª uzyska¢ dzi¦ki wykorzystaniu
+ []
+
+<WynikiCzasStartu.pdf, id=741, 522.4017pt x 300.34207pt>
+File: WynikiCzasStartu.pdf Graphic file (type pdf)
+<use WynikiCzasStartu.pdf>
+Package pdftex.def Info: WynikiCzasStartu.pdf  used on input line 1683.
+(pdftex.def)             Requested size: 341.43306pt x 196.30617pt.
+
+Overfull \hbox (19.62184pt too wide) in paragraph at lines 1691--1698
+[]\T1/cmr/m/n/12 Test zostaª przeprowadzony lokalnie. Wykorzystuj¡c \T1/cmr/bx/n/12 Keycloaka \T1/cmr/m/n/12 wewn¡trz \T1/cmr/bx/n/12 Dockera
+ []
+
+
+Overfull \hbox (23.50014pt too wide) in paragraph at lines 1691--1698
+\T1/cmr/m/n/12 przez co mo»na byªo pomin¡¢ sytuacje chwilowego obi¡»enia tego narz¦dzia. U»ytkownicy
+ []
+
+
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [49 <./WynikiCzasStartu.pdf>]
+Overfull \hbox (8.56172pt too wide) in paragraph at lines 1703--1708
+[]\T1/cmr/m/n/12 Najgorszy wynik uzyskaª \T1/cmr/bx/n/12 Docker Swarm\T1/cmr/m/n/12 , gdy» uzyskaª jedynie 6000 pozytywnych
+ []
+
+
+Overfull \hbox (1.85815pt too wide) in paragraph at lines 1703--1708
+\T1/cmr/bx/n/12 requestów \T1/cmr/m/n/12 w czasie 30 sekund. Kubernetes uzyskaª 21000 pozytywnych \T1/cmr/bx/n/12 requestów\T1/cmr/m/n/12 ,
+ []
+
+<kubernetes/ObciazenieKubernetes.pdf, id=760, 705.31505pt x 143.77716pt>
+File: kubernetes/ObciazenieKubernetes.pdf Graphic file (type pdf)
+<use kubernetes/ObciazenieKubernetes.pdf>
+Package pdftex.def Info: kubernetes/ObciazenieKubernetes.pdf  used on input line 1711.
+(pdftex.def)             Requested size: 341.43306pt x 69.60019pt.
+<nomad/ObciazenieNomad.pdf, id=761, 707.57349pt x 145.28278pt>
+File: nomad/ObciazenieNomad.pdf Graphic file (type pdf)
+<use nomad/ObciazenieNomad.pdf>
+Package pdftex.def Info: nomad/ObciazenieNomad.pdf  used on input line 1718.
+(pdftex.def)             Requested size: 341.43306pt x 70.10513pt.
+<swarm/ObiazenieDockerSwarm.pdf, id=762, 706.82066pt x 148.29404pt>
+File: swarm/ObiazenieDockerSwarm.pdf Graphic file (type pdf)
+<use swarm/ObiazenieDockerSwarm.pdf>
+Package pdftex.def Info: swarm/ObiazenieDockerSwarm.pdf  used on input line 1725.
+(pdftex.def)             Requested size: 341.43306pt x 71.63287pt.
+
+LaTeX Warning: Reference `fig: Uzyte zasoby podczas testu Gatling' on page 50 undefined on input line 1733.
+
+<nomad/nomadGatlingTest.pdf, id=763, 720.36627pt x 228.0781pt>
+File: nomad/nomadGatlingTest.pdf Graphic file (type pdf)
+<use nomad/nomadGatlingTest.pdf>
+Package pdftex.def Info: nomad/nomadGatlingTest.pdf  used on input line 1746.
+(pdftex.def)             Requested size: 341.43306pt x 108.10503pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50 <./kubernetes/ObciazenieKubernetes.pdf> <./nomad/ObciazenieNomad.pdf
+
+pdfTeX warning: pdflatex (file ./nomad/ObciazenieNomad.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./swarm/ObiazenieDockerSwarm.pdf
+
+pdfTeX warning: pdflatex (file ./swarm/ObiazenieDockerSwarm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [51 <./nomad/nomadGatlingTest.pdf>] [52
+
+]
+
+LaTeX Warning: Reference `tab:Wady i zalety aplikacji Monolitycznych i mikroserwisowych' on page 53 undefined on input line 1767.
+
+
+Overfull \hbox (27.19157pt too wide) in paragraph at lines 1759--1779
+\T1/cmr/m/n/12 ±rodowiskach komercyjnych. S¡ to narz¦dzia wspomagaj¡ce prac¦ nad du»ymi projektami,
+ []
+
+
+Overfull \hbox (4.7196pt too wide) in paragraph at lines 1759--1779
+\T1/cmr/m/n/12 przechodzi¢ z tworzenia du»ych monolitycznych aplikacji na aplikacje mikroserwisowe.
+ []
+
+
+Overfull \hbox (1.93538pt too wide) in paragraph at lines 1759--1779
+\T1/cmr/m/n/12 Spowodowaªo to potrzeb¦ wprowadzenia nowych rozwi¡za« pod ten typ. Szczegóªowe
+ []
+
+
+Overfull \hbox (11.11543pt too wide) in paragraph at lines 1759--1779
+\T1/cmr/m/n/12 zarz¡dzanie tymi aplikacjami poprzez mechanizmy takie jak automatyczna regeneracja.
+ []
+
+
+Overfull \hbox (21.81297pt too wide) in paragraph at lines 1759--1779
+\T1/cmr/m/n/12 W obecnych czasach poznanie tych narz¦dzi jest argumentem do wej±cia do nowoczesnych
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1779
+
+ []
+
+
+LaTeX Warning: Reference `cha:Aplikacja' on page 53 undefined on input line 1789.
+
+
+LaTeX Warning: Reference `cha:Orkiestratory' on page 53 undefined on input line 1799.
+
+
+Overfull \hbox (1.98091pt too wide) in paragraph at lines 1783--1811
+[]\T1/cmr/m/n/12 Celem pracy byªo zapoznanie si¦ z narz¦dziami do orkiestracji kontenerów Docker.
+ []
+
+
+Overfull \hbox (17.4308pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 oraz komendy. Kolejnym krokiem byªo stworzenia aplikacji do testowania orkiestratorów
+ []
+
+
+Overfull \hbox (18.54018pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 dodatkowo zawieraªa uwierztelnianie u»ytkownika za pomoc¡ Keycloaka. Tak utworzona
+ []
+
+
+Overfull \hbox (32.83675pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 aplikacj¦ nast¦pnie zostaªa uruchomiona na ka»dym z orkiestratorów. Sposób uruchomienia
+ []
+
+
+Overfull \hbox (1.95186pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 zostaª opisany w rozdziale []. Architektury w poszczególnych orkiestratorach zostaªy
+ []
+
+
+Overfull \hbox (1.41327pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 wªasnor¦cznie opracowane i wdro»one lokalnie. Ostatnim etapem byªo przygotowanie
+ []
+
+
+Overfull \hbox (0.66054pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 Docker swarma. Test sprawdzaj¡cy szybko±¢ uruchomienia aplikacja, a» do momentu
+ []
+
+
+Overfull \hbox (11.1045pt too wide) in paragraph at lines 1783--1811
+\T1/cmr/m/n/12 uzyskania prawidªowej odpowiedzi zostaª napisany wªasnor¦cznie w j¦zyku c. Ostatnim
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1811
+
+ []
+
+
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [53
+
+]
+Overfull \hbox (38.4968pt too wide) in paragraph at lines 1814--1839
+[]\T1/cmr/m/n/12 Osi¡gni¦te wyniki cz¦±ciowo pokrywaªy si¦ z przewidywanymi jeszcze przed rozpocz¦ciem
+ []
+
+
+Overfull \hbox (23.92014pt too wide) in paragraph at lines 1814--1839
+\T1/cmr/m/n/12 uzyskaª Kubernetes. Mo»na byªo zauwa»yc dziaªaj¡ce mechanizm, które zoptymalizowaªy
+ []
+
+
+Overfull \hbox (16.0427pt too wide) in paragraph at lines 1840--1846
+\T1/cmr/m/n/12 sprawdzi si¦ w mniej skomplikowanych wdro»eniach i w zespoªach mniej do±wiadczonych
+ []
+
+
+Overfull \hbox (1.61987pt too wide) in paragraph at lines 1847--1856
+[]\T1/cmr/m/n/12 Zaawansowane funkcje Kubernetesa idealnie sprawdz¡ si¦ przy du»ych i zªo»onych
+ []
+
+
+Overfull \hbox (5.88618pt too wide) in paragraph at lines 1847--1856
+\T1/cmr/m/n/12 Korzystanie z Kubernetesa w chymrze obarczone jest kosztami za zasoby obliczeniowe,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1857--1865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1879
+
+ []
+
+[54]
+Overfull \hbox (0.86806pt too wide) in paragraph at lines 1882--1885
+[]\T1/cmr/m/n/12 W dalszej perspektywie mo»na rozwa»y¢ u»ycie jednego narz¦dzia do sprawdzenia
+ []
+
+[55] [56
+
+] (./main.bbl
+./main.bbl:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...tutorials/get-started/gs-overview?product_
+                                                  intent=nomad.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 33.
+
+./main.bbl:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.bbl:34: Missing } inserted.
+<inserted text> 
+                }
+l.34 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ¦ in font cmr12!
+./main.bbl:34: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.34 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) [57
+
+]
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [58
+
+]
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [59
+
+] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  779FA0AE72B8CD10B1392E04EE963B0B;5393.
+ ) 
+Here is how much of TeX's memory you used:
+ 12111 strings out of 480171
+ 189615 string characters out of 5894489
+ 650817 words of memory out of 5000000
+ 29341 multiletter control sequences out of 15000+600000
+ 482073 words of font info for 54 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 70i,10n,76p,1278b,1786s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/matiu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (59 pages, 1951408 bytes).
+PDF statistics:
+ 1466 PDF objects out of 1728 (max. 8388607)
+ 906 compressed objects within 10 object streams
+ 558 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

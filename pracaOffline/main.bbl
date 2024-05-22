@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{Java}
+Cay~S. Horstmann.
+\newblock Java.
+\newblock In {\em Podstawy. Wydanie XI}, page 768, 2020.
+
+\bibitem{Quarkus}
+Alex~Soto Bueno and Jason Porter.
+\newblock Quarkus cookbook.
+\newblock In {\em Quarkus Cookbook Kubernetes-Optimized Java Solutions}, page
+  394, 2020.
+
+\bibitem{Maven}
+Jason~Van Zyl's.
+\newblock Maven.
+\newblock In {\em Maven The Definitive Guide}, page 470, 2009.
+
+\bibitem{DockerSwarm}
+Viktor Farcic.
+\newblock The devops 2.1 toolkit: Docker swarm.
+\newblock In {\em The DevOps 2.1 Toolkit}, page 414, 2017.
+
+\bibitem{Kubernetes}
+Nigel Poulton.
+\newblock The kubernetes book.
+\newblock In {\em The Kubernetes Book}, page 235, 2021.
+
+\bibitem{Nomadwww}
+HashiCorp Developer.
+\newblock
+  https://developer.hashicorp.com/nomad/tutorials/get-started/gs-overview?product_intent=nomad.
+\newblock [dostęp: 2013-03-08].
+
+\bibitem{Consulwww}
+HashiCorp Developer.
+\newblock https://developer.hashicorp.com/consul/docs/intro.
+\newblock [dostęp: 2013-03-08].
+
+\end{thebibliography}

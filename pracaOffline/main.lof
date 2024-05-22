@@ -1,0 +1,20 @@
+\babel@toc {nil}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces konteneryzacją i wirtualizacją}}{11}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Architektura Dockera i Podmana}}{12}{figure.1.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ERD bazy danych}}{22}{figure.2.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architektura aplikacji w Docker Swarmie}}{28}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architektura aplikacji w Kubernetesie}}{33}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architektura aplikacji w Nomadzie}}{37}{figure.3.3}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Wyniki użycia procesora dla aplikacji w orkiestratorach}}{45}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wyniki użycia pamięci dla aplikacji w orkiestratorach}}{46}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Alokacja zasobów Nomad}}{48}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Czas startu aplikacji}}{49}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces konteneryzacją i wirtualizacją}}{50}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces konteneryzacją i wirtualizacją}}{50}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces konteneryzacją i wirtualizacją}}{50}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Użyte zasoby podczas testu Gatling}}{51}{figure.5.8}%
