@@ -58,11 +58,22 @@
 \label{cha:Wstep}                       %w \label nie~używamy polskich znaków
 \addcontentsline{toc}{chapter}{Wstęp}   %dorzucamy ręcznie do~spisu treści
 
-Obecnie zauważalny jest trend przejściowy z dużych monolitycznych aplikacji, na aplikacje mikroserwisowe. Jak dotąd powszechnie powstawały duże i ciężkie aplikacje, lecz w powodu powstania Dockera i orkiestratorów coraz częściej zaczęto przechodzić na podział tej aplikacji na mniejsze części.
+Obecnie zauważalny jest trend przejściowy z dużych monolitycznych 
+aplikacji, na aplikacje mikroserwisowe. Jak dotąd powszechnie 
+powstawały duże i ciężkie aplikacje, lecz w powodu powstania 
+\textit{Dockera} i \textit{orkiestratorów} coraz częściej zaczęto przechodzić na 
+podział tej aplikacji na mniejsze części.
 
-Aplikacje monolityczne polegają na jednoczesnym uruchomieniu wszystkich komponentów aplikacji w tym samym czasie. Co za tym idzie zmiany w jednym komponencie wymagały restartowania całości.
+Aplikacje \textit{monolityczne} polegają na jednoczesnym uruchomieniu 
+wszystkich komponentów aplikacji w tym samym czasie. Co za tym 
+idzie zmiany w jednym komponencie wymagają restartowania całości.
 
-Z drugiej strony aplikacje mikroserwisowe polegają na podziale serwisu na mniejsze niezależne części, które komunikują się za pośrednictwem API. Pozwala to na podział obowiązków między członkami zespołu w taki sposób, żeby praca jednej osoby nie wpływała na pracę drugiej. Co prowadzi do zwiększenie elastyczności i ułatwia utrzymanie kodu aplikacji.
+Z drugiej strony aplikacje \textit{mikroserwisowe} polegają na podziale 
+serwisu na mniejsze niezależne części, które komunikują się za 
+pośrednictwem \textit{API}. Pozwala to na podział obowiązków między 
+członkami zespołu w taki sposób, żeby praca jednej osoby nie 
+wpływała na pracę drugiej. Co prowadzi do zwiększenie 
+elastyczności i ułatwia utrzymanie kodu aplikacji.
 
 \begin{table}[!h]
 \caption{Wady i zalety aplikacji Monolitycznych i mikroserwisowych}
@@ -72,11 +83,21 @@ Z drugiej strony aplikacje mikroserwisowe polegają na podziale serwisu na mniej
 Aplikacje monolityczne  & Aplikacje mikroserwisowe\\
 \hline
 \hline
-Może wystąpić problem w dodaniu nowych technologii do projektu & Pozwala na stopniowe przepisywanie części na kodu na nowe technologie   \\ \hline
-Proste do implementacji & Wszystkie komponenty są tworzone oddzielnie co pozwala na lepsze ich skalowanie i możliwość osiągnięcia lepszej wydajności \\ \hline
-Potrzeba więcej czasu na dodanie nowych funkcjonalności & Trudne testowanie wszystkich serwisów \\ \hline
-Poszczególne elementy systemu są zależne od siebie, co powoduje pojawienie się błędu w innej części aplikacji po wprowadzeniu zmian & Potrzebna jest dodatkowa infrastruktura, która pomoże obsłużyć wszystkie komponenty aplikacji np. AWS \\ \hline
-Mniejsza skalowalność niż w przypadku aplikacji mikroserwisowych & Serwisy są odizolowane co sprawia, że pojawienie się błędu w jednym seriwsie, nie będzie mieć on wpływu na cały system. \\ \hline
+Może wystąpić problem w dodaniu nowych technologii do projektu &
+ Pozwala na stopniowe przepisywanie części na kodu na nowe 
+technologie   \\ \hline
+Proste do implementacji & 
+Wszystkie komponenty są tworzone oddzielnie co pozwala na lepsze 
+ich skalowanie i możliwość osiągnięcia lepszej wydajności \\ \hline
+Potrzeba więcej czasu na dodanie nowych funkcjonalności &
+ Trudne testowanie wszystkich serwisów \\ \hline
+Poszczególne elementy systemu są zależne od siebie, co powoduje 
+pojawienie się błędu w innej części aplikacji po wprowadzeniu 
+zmian & Potrzebna jest dodatkowa infrastruktura, która pomoże 
+obsłużyć wszystkie komponenty aplikacji np. AWS \\ \hline
+Mniejsza skalowalność niż w przypadku aplikacji mikroserwisowych & 
+Serwisy są odizolowane co sprawia, że pojawienie się błędu w 
+jednym serwisie, nie będzie mieć on wpływu na cały system. \\ \hline
 Szybsza komunikacja między komponentami & Wydajność całej aplikacji może być niska z powodu opóźnień w komunikacji między serwisami. \\ \hline
 Łatwe do zarządzania i monitorowania  & Tworzenie aplikacji mikroserwisowej wymaga dużej wiedzy i umiejętności. \\ \hline
 \end{tabular}
@@ -84,18 +105,35 @@ Szybsza komunikacja między komponentami & Wydajność całej aplikacji może by
 \end{center}
 \end{table}
 
-Popularnym narzędziem do tworzenia aplikacji mikroserwisowych jest Docker \ref{cha:Konteneryzacja}. Pozwala on odizolować i podzielić poszczególne części aplikacji, na elementy zwane kontenerami. Każdy kontener posiada wszystko co potrzebuje, aby zostać uruchomiony, więc  bez znaczenia, gdzie będzie uruchomiony, będzie działał zawsze tak samo. Pozwala to programistom na wybór odnośnie używanego systemu operacyjnego. Ponadto kontenery są łatwo skalowalne i nie wymagają dużych mocy obliczeniowych w odróżnieniu do maszyn wirtualnych.
+Popularnym narzędziem do tworzenia aplikacji mikroserwisowych jest 
+\textit{Docker} \ref{cha:Konteneryzacja}. Pozwala on odizolować i podzielić 
+poszczególne części aplikacji, na elementy zwane \textit{kontenerami}. 
+Każdy \textit{kontener} posiada wszystko co potrzebuje, aby zostać 
+uruchomiony, więc  bez znaczenia, gdzie będzie uruchomiony, będzie 
+działał zawsze tak samo. Pozwala to programistom na wybór odnośnie 
+używanego systemu operacyjnego. Ponadto kontenery są łatwo 
+skalowalne i nie wymagają dużych mocy obliczeniowych w odróżnieniu 
+do maszyn wirtualnych.
 
-W pewnym momencie rozwoju aplikacji, gdy aplikacja staje się coraz większa. Przychodzi problem związany z zarządzaniem wszystkimi kontenerami. Z pomocą przychodzą narzędzia zwane orkiestratorami, za pomocą których można zarządzać całym cyklem życia kontenerów, czyli wdrażaniem, aktualizowaniem, skalowaniem i usuwaniem. Przykładowymi zadaniami orkiestatorów jest dynamiczne przypisanie zasobów, monitorowanie wydajności kontenerów, czy odbudowa kontenera w przypadku wystąpienia błędów. W rozdziale \ref{cha:Orkiestratory} opisałem wykorzystane orkiestatory.
+W pewnym momencie rozwoju aplikacji, gdy aplikacja staje się coraz większa. Przychodzi problem związany z zarządzaniem wszystkimi kontenerami. Z pomocą przychodzą narzędzia zwane \textit{orkiestratorami}, za pomocą których można zarządzać całym cyklem życia \textit{kontenerów}, czyli wdrażaniem, aktualizowaniem, skalowaniem i usuwaniem. Przykładowymi zadaniami orkiestatorów jest dynamiczne przypisanie zasobów, monitorowanie wydajności kontenerów, czy odbudowa kontenera w przypadku wystąpienia błędów. W rozdziale \ref{cha:Orkiestratory} zostały opisane wykorzystane orkiestatory.
 
-Aspektem teoretycznym pracy jest zapoznanie się z narzędziem Docker\ref{cha:Konteneryzacja}, jego możliwościami, komendami i sposobem działania. Następnie zaprojektowanie aplikacji\ref{cha:Aplikacja} za pomocą której będzie można porównać dane orkiestratory opisane w rozdziale \ref{cha:Orkiestratory}.
+Aspektem teoretycznym pracy jest zapoznanie się z narzędziem Docker\ref{cha:Konteneryzacja}, jego możliwościami, komendami i sposobem działania. Następnie zaprojektowanie aplikacji\ref{cha:Aplikacja} za pomocą której będzie można porównać dane \textit{orkiestratory} opisane w rozdziale \ref{cha:Orkiestratory}.
 
-Aspekt praktyczny składa się z własnoręcznego zaimplementowania aplikacji i jej skonteneryzowania. Następnie zainstalowania i skonfigurowania orkiestratorów lokalnie, a na koniec wykonanie testów, takich jak sprawdzenie obiążenia podzespołów, czasu uruchomienia, czy sprawdzenie wytrzymałości na ruch użytkowników, poprzez zalanie aplikacji dużą ilością zapytań. Teoretycznie najlepsze wyniki powinny wyjść dla Docker Swarma, ponieważ jest to wewnętrzne narzędzie Dockera do okrkiestracji kontenerów. Jest również najmniej rozbudowane i ma najmniej funkcji. Wyniki dla Kubernetesa i Nomada powinny być zbliżone. Są to narzędzia, które wymagają dodatkowego oprogramowania i odpowiedniego zkonfigurowania.
+Aspekt praktyczny składa się z własnoręcznego zaimplementowania aplikacji i jej skonteneryzowania. Następnie zainstalowania i skonfigurowania \textit{orkiestratorów} lokalnie, a na koniec wykonanie testów, takich jak sprawdzenie obiążenia podzespołów, czasu uruchomienia, czy sprawdzenie wytrzymałości na ruch użytkowników, poprzez zalanie aplikacji dużą ilością zapytań. Teoretycznie najlepsze wyniki powinny wyjść dla Docker Swarma, ponieważ jest to wewnętrzne narzędzie Dockera do okrkiestracji kontenerów. Jest również najmniej rozbudowane i ma najmniej funkcji. Wyniki dla Kubernetesa i Nomada powinny być zbliżone. Są to narzędzia, które wymagają dodatkowego oprogramowania i odpowiedniego zkonfigurowania.
 
 Po wstępnej analizie dostępych narzędzi, został wybrany framework Quarkus\ref{sec:Quarkus} z powodu dużego wsparcia dla Kubernetesa \ref{sec: Kubernetes} i konteneryzacji. Jak i również sprawdzenia, czy rzeczywiście uzyskam lepsze dla niego lepsze wyniki w porównanie z innymi okiestratorami. Podczas testów startu aplikacji, czy podczas testowania ruchu w aplikacji będą wysyłane zapytania do stworzonego API i na podstawie odpowiedzi, będzie można wyciągnąć odpowiednie wnioski.
 \newline
 
-Moja praca składa się z pięciu rozdziałów. W rozdziale \ref{cha:Konteneryzacja} jest przedstawiona historia konteneryzacji, jej zalety oraz wady. Następnie opisane są podstawowe elementy potrzebne do korzystania z Dockera. Na koniec jest porównianie z innym równie popularnym narzędziem do orkiestracji, czyli Podmanem. \ref{cha:Orkiestratory} rozdział będzie mówił o orkiestacji. Przedstawiona zostanie jej historia oraz opis poszczególnych orkiestratorów: Docker Swarm, Kubernetes oraz Nomad. \ref{cha:Aplikacja} rozdział został poświęciony informacjom o aplikacji. Co ta aplikacja ma robić i jakie technologie zostały użyte do jej wykonania. \ref{cha:Opis eksperymentów} rozdział przedstawia platformę testową. Architektury systemu dla każdego orkiestatora. W jaki sposób serwisy się łączą, oraz użyte narzędzia do testowania. Ostatni \ref{cha:Analiza Wynikow} rozdział przedstawia uzyskane wyniki oraz ich analizę oraz interpretację.
+Cała praca składa się z pięciu rozdziałów. W rozdziale \ref{cha:Konteneryzacja} jest przedstawiona 
+historia konteneryzacji, jej zalety oraz wady. Następnie opisane są podstawowe elementy potrzebne do 
+korzystania z Dockera. Na koniec jest porównianie z innym równie popularnym narzędziem do 
+\textit{orkiestracji}, czyli Podmanem. \ref{cha:Aplikacja} rozdział został poświęciony informacjom o aplikacji. 
+Co ta aplikacja ma robić i jakie technologie zostały użyte do jej wykonania. \ref{cha:Orkiestratory} rozdział 
+będzie mówił o orkiestacji. Przedstawiony zostanie opis poszczególnych \textit{orkiestratorów}: Docker Swarm, 
+Kubernetes oraz Nomad. Omówione zostaną architektury systemu dla każdego orkiestatora oraz w jaki sposób 
+serwisy się łączą. ref{cha:Opis eksperymentów} rozdział przedstawia platformę testową oraz użyte narzędzia 
+do testowania i sposób ich wykorzystania. Ostatni \ref{cha:Analiza Wynikow} rozdział przedstawia uzyskane 
+wyniki oraz ich interpetację.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cleardoublepage
@@ -123,35 +161,32 @@ Ostatnimi komendami są \textbf{EXPOSE} do ustalenia portu pod jakim będzie mo�
 
 Przykładowy plik \textbf{Docker File}\newline
 
+\begin{lstlisting}[breaklines=true]
+
 FROM registry.access.redhat.com/ubi8/openjdk-17:1.16
 
 ENV LANGUAGE='en\_US:en'
 
 COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
-
 COPY --chown=185 target/quarkus-app/*.jar /deployments/
-
 COPY --chown=185 target/quarkus-app/app/ /deployments/app/
-
 COPY --chown=185 target/quarkus-app/quarkus/ /deployments/quarkus/
 
 EXPOSE 8080
-
 USER 185
 
 ENV JAVA\_OPTS="-Dquarkus.http.host=0.0.0.0 -
-
 Djava.util.logging.manager=org.jboss.logmanager.LogManager"
-
 ENV JAVA\_APP\_JAR="/deployments/quarkus-run.jar"
 
+\end{lstlisting}
 
 \subsection{Obrazy i kontenery Dockerowe}
 \label{images and containers}
 
 Docker pozwala na spakowanie aplikacji i uruchomienie jej w kontenerze. Operacja ta działa na każdym systemie opercyjnym umożliwiającym wirtualizacje w którym zainstalowany jest Docker.
 
-Kontener Dockerowy jest to środowisko uruchomieniowe ze wszystkimi zależnościami, jak kod programu czy biblioteki. Aby utworzyć kontener potrzebny jest obraz. Warstwy utworzone przy pomocy obrazu są niemodyfikowalne, ale jest możliwość zainstalowania na najwyższej warstwie swojej aplikacji czy utworzenie własnych zmiennych i dodanie danych. W celu efektywnego zarządzania dużą ilością kontenerów potrzebne jest narzędzie zwane orkiestratorem \ref{cha:Orkiestratory}. 
+Kontener Dockerowy jest to środowisko uruchomieniowe ze wszystkimi zależnościami, jak kod programu czy biblioteki. Aby utworzyć kontener potrzebny jest obraz. Warstwy utworzone przy pomocy obrazu są niemodyfikowalne, ale jest możliwość zainstalowania na najwyższej warstwie swojej aplikacji czy utworzenie własnych zmiennych i dodanie danych. W celu efektywnego zarządzania dużą ilością kontenerów potrzebne jest narzędzie zwane \textit{orkiestratorem} \ref{cha:Orkiestratory}. 
 \newline
 Najbardziej przydatne komendy w przypadku kontenerów to:
 \begin{description}
@@ -190,7 +225,7 @@ Przykładowe komendy pozwalające zbudować aplikację opisaną w rozdziale \ref
 
 Wirtualizacja jest to proces tworzenia wartstwy między systemem hosta, a maszyną wirtualną. Komputer zostaje podzielony na wiele mniejszych wirtualnych systemów, gdzie każdy z nich ma swój własny system operacyjny, zasoby i każdy z nich działa niezależnie. Oprogramowanien, które umożliwia wykonanie wirtualizacji jest hypervisor.
 
-W przypadku konteneryzacji, nie tworzy się osobnym system od początku, ale używane są zasoby i system operacyjny hosta. Do tego wykorzystywane jest specjalne oprogramowanie do konteneryzacji, jak Docker albo Podman.
+W przypadku konteneryzacji, nie tworzy się osobnego systemu od początku, ale używane są zasoby i system operacyjny hosta. Do tego wykorzystywane jest specjalne oprogramowanie do konteneryzacji, jak Docker albo Podman.
 
 Przykładowy pogląd na oba przypadki przedstawiłem na rysunku \ref{fig: Konteneryzacja i wirtualizacja}
 
@@ -211,10 +246,10 @@ Cecha  & Konteneryzacja & Wirtualizacja\\
 \hline
 Użyte zasoby & W powodu używania systemu operacyjnego hosta potrzebują mało zasobów do działania. & Każda maszyna wirtualna korzysta z własnego systemu operacyjnego, więc do stworzenia wielu takich maszyn potrzebne jest wiele zasobów. \\ \hline
 Czas uruchomienia & Kontenery szybciej się uruchamiają, ponieważ nie potrzebują uruchamiać całego systemu. & Maszyny wirtualne potrzebują dużo czasu do uruchomienia.\\ \hline
-Izolacja & Kontenery używają zasobów sprzętowych hosta, więc w przyadku wystąpienia luk w zabezpieczeniach kontenera może to być wykorzystane przez osoby trzecie. & Maszyny wirtualne działają niezależnie. Błędy i luki, które mogą wystąpić w jednej maszynie wirtualnej nie mają wpływu na działanie innej maszyny wirtualnej.\\ \hline
+Izolacja & Kontenery używają zasoby sprzętowe hosta, więc w przypadku wystąpienia luk w zabezpieczeniach kontenera może to być wykorzystane przez osoby trzecie. & Maszyny wirtualne działają niezależnie. Błędy i luki, które mogą wystąpić w jednej maszynie wirtualnej nie mają wpływu na działanie innej maszyny wirtualnej.\\ \hline
 Łatwość i szybkość użycia & Kontenery można łatwo i szybko tworzyć i uswać.  & Maszyny wirtualne potrzebują, więcej czasu na uruchomienie oraz wymagają ich odpowiedniego zkonfigurowania.  \\ \hline
 Ilość potrzebnego miejsca & Obrazy Dockerowe są małe. Jeden obraz zajmuje jednostkę rzędu MB danych.  & Maszyny wirtualne potrzebują, więcej miejsca, gdyż jedna maszyna wirtualna zajmuje jednostkę rzędu GB danych.  \\ \hline
-Kompatybilność & Kompatybilne tylko z dystrybucjami Linuxa. Narzędzia takie jak \textbf{Docker Desktop} umożliwia działąnie na \textbf{Windowsie} i \textbf{MacOS} & Maszyny wirtualne są kompatybilne ze wszystkimi systemami operacyjnymi. \\ 
+Kompatybilność & Kompatybilne tylko z dystrybucjami Linuxa. Narzędzia takie jak \textbf{Docker Desktop} umożliwiają działanie na \textbf{Windowsie} i \textbf{MacOS} & Maszyny wirtualne są kompatybilne ze wszystkimi systemami operacyjnymi. \\ 
 \hline
 \end{tabular}
 \label{tab:Różnice między konteneryzacją, a wirtualizacją}
@@ -223,7 +258,7 @@ Kompatybilność & Kompatybilne tylko z dystrybucjami Linuxa. Narzędzia takie j
 
 \section{Docker i Podman}
 
-Podman jest narzędziem Open Source stworzonym przez firmę Red Hat. Podobnie jak Docker służy do tworzenia i zarządzania kontenerami. W tym rozdziale przedstawię różnice i podobienśtwa między tymi narzędziami.
+Podman jest narzędziem Open Source stworzonym przez firmę Red Hat. Podobnie jak Docker służy do tworzenia i zarządzania kontenerami. W tej sekcji przedstawię różnice i podobienśtwa między tymi narzędziami.
 
 \begin{figure}[!h]
 \centering
@@ -232,9 +267,14 @@ Podman jest narzędziem Open Source stworzonym przez firmę Red Hat. Podobnie ja
 \label{fig: Architektura Dockera i Podmana}
 \end{figure}
 
-Architektura \ref{fig: Architektura Dockera i Podmana} -- architektura Dockera przedstawia architektura klient-serwer, gdzie użytkownicy komunikują się z Docker daemonem, który jest odpowiedzalny za budowanie, uruchamianie i dystrybucję kontenerów. Komunikacja odbywa się za pomocą REST API przy pomocy Docker CLI. Podman za to nie posiada własnego deamona. Obsługa i zarządzanie kontenerami odbywa się bezpośrednio przez Podman CLI. Co przekłada się na szybkość poleceń.\newline
+Architektura Dockera jest architekturą 
+typu klient-serwer, gdzie użytkownicy komunikują się z Docker daemonem, 
+który jest odpowiedzalny za budowanie, uruchamianie i dystrybucję kontenerów. Komunikacja odbywa się 
+za pomocą REST API przy pomocy Docker CLI. Podman za to nie posiada własnego deamona. Obsługa i zarządzanie 
+kontenerami odbywa się bezpośrednio przez Podman CLI. Co przekłada się na szybkość poleceń. Obie architektury 
+zostały przedstawione razem na rysunku \ref{fig: Architektura Dockera i Podmana}. \newline
 
-Polecenia -- treść i zachowanie poleceń jest bardzo podobne, zwykle jedyną różnicą jest zamiana słowa kluczowego docker na podman. W poniższym przykładzie przedstawiłem dwie komendy, które tworzą kontener z systemem nginx: 
+Polecenia -- treść i zachowanie poleceń są bardzo podobne, zwykle jedyną różnicą jest zamiana słowa kluczowego docker na podman. W poniższym przykładzie przedstawiłem dwie komendy, które tworzą kontener z systemem nginx: 
 
 \noindent -- \textbf{podman run --name mynginx1 -dt -p 8080:80/tcp docker.io/nginx} \newline
 -- \textbf{docker run --name mynginx1 -p 80:80 -d nginx}
@@ -243,13 +283,13 @@ Polecenia -- treść i zachowanie poleceń jest bardzo podobne, zwykle jedyną r
 Rootless containers -- jest to rozwiązanie występujące w Podmanie, które pozwala na uruchamianie kontenerów jako użytkownik bez roli administratora. Odwortna sytuacja jest w przypadku Dockera, gdzie użytkownik musi posiadać uprawnienia administratora, aby mógł zarządzać kontenerami.
 \newline
 
-Docker Desktop i Podman Desktop -- są to narzędzia graficzne do Docker i Podmana. Pozwalają przejrzeć wszystkie obrazy i kontenery działające lokalnie oraz wykonać na nich podstawe operacje, jak usunięcie, zatrzymanie czy uruchomienie.
+Docker Desktop i Podman Desktop -- są to narzędzia graficzne do Dockera i Podmana. Pozwalają przejrzeć wszystkie obrazy i kontenery działające lokalnie oraz wykonać na nich podstawe operacje, jak usunięcie, zatrzymanie czy uruchomienie.
 \newline
 
 Networking -- Docker tworzy swoją własną sieć zwaną docker0, która umożliwia komunikację między kontenerami. Kontenery Podmanowe dzielą sieć z hostem, czyli używają bezpośrednio interfejsu sieciowego hosta.
 \newline
 
-Orkiestracja -- Docker posiada własny wbudowany orkiestrator zwany Docker Swarmem, który został szczegółowo opisany w rozdziale \ref{sec:Docker Swarm}. Podman nie posiada własnego orkiestratora. Posiada za to większe wsparcie dla Kubernetesa\ref{sec: Kubernetes}.
+\textit{Orkiestracja} -- Docker posiada własny wbudowany \textit{orkiestrator} zwany Docker Swarmem, który został szczegółowo opisany w rozdziale \ref{sec:Docker Swarm}. Podman nie posiada własnego orkiestratora. Posiada za to większe wsparcie dla Kubernetesa\ref{sec: Kubernetes}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cleardoublepage
@@ -263,7 +303,7 @@ Rozdział ten przedstawia narzędzia wykorzystane do stworzenia aplikacji do tes
 
 Jest to obiektowy język programowania do tworzenia aplikacji webowych, desktopowych i mobilnych. Pozwala na to wirtualna maszyna javy (JVM), dzięki której kod może być uruchamiany na każdym systemie operacyjnym i urządzeniu, poprzez interpetacje kodu. 
 
-Java jest to czysto obiektowy język, ponieważ już żeby uruchomić program trzeba napisać klasę oraz metodę \textbf{main}. Posiada w sobie wszystkie mechanizmy stosowane w tym paradygmacie. 
+Java jest to czysto obiektowy język, ponieważ już żeby uruchomić program trzeba napisać klasę oraz metodę \textbf{main()}. Posiada w sobie wszystkie mechanizmy stosowane w tym paradygmacie. 
 Pierwszym jest dziedziczenie, które pozwala na przydzielenie właściwości i funkcjonalności z klasy rodzica do klasy pochodnej. Co powoduje, że nie trzeba ponownie pisać metod w klasach dziedziczących, więc jest mniej kodu jak i klasy są prostsze. 
 Drugim jest abstrakcja, czyli zdefiniowanie własności dla obiektu. Przykładowo zdefiniowany użytkownik w aplikacji nie music posiadać informacji o jego cechach osobowych. W celu jego logowania wystarczy login i hasło, a przy rejestracji dodatkowe dane jak imię, nazwisko czy email.
 Trzecim jest enkapsulacja, która pozwala na ukrywanie pól klasy przed odczytem z zewnątrz. W klasie użytkownika nie chcemy, aby ktoś niepowołany zmieniał jego dane. W Javie występuje kilka modyfikatorów dostępu, które pozwalają określić poziom dostępu. Możemy ich użyć do ochrony klas, metod i pól:
@@ -421,12 +461,16 @@ Główną zasadą Mavena jest \textbf{Convention over configuration}. W \textbf{
 
 Cała konfiguracja Mavena jest zapisana w pliku pom.xml, który wykona wszystkie operacje automatycznie i przejdzie przez cały cykl budowania projektu. Najprostszy szablon takie pliku może wyglądać następująco: 
 
+\begin{lstlisting}[breaklines=true]
+
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.acme</groupId>
   <artifactId>code-with-quarkus</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 </project>
+
+\end{lstlisting}
 
 Funkcje Mavena, które zostały wykorzystane w trakcie tworzenia aplikacji to: 
 \begin{itemize}
@@ -446,8 +490,8 @@ Alternatywnym narzędziem jest \textbf{Gradle}. Posiada on takie same funkcje co
 \begin{description}
   \item[Obłsuga metod HTTP] -- można wysyłać żądania na dany adres url przy użyciu wybranego typu zapytania,
   \item[Dane wejściowe i wyjściowe] -- można ustawić headery np. Accept: application/json lub application/xml, który definiuje jaki typ danych chcemy zwrócić, można ustawić \textbf{body} zapytania czyli dane przesyłane w trakcie requesta,
-  \item[Uwierzytelnianie] -- można ustawić parametry zapytania, sposób autoryzacji np. używając \textbf{Bearer Tokenu} lub OAuth 2
-  \item[Organizacja testów] -- Postman zapewnia możliwość rejestracji i logowania, co daje możliwość zapisywania testów i ich udostępniania,
+  \item[Uwierzytelnianie] -- można ustawić parametry zapytania, sposób autoryzacji np. używając \textbf{Bearer Tokenu} lub OAuth 2,
+  \item[Organizacja testów] -- Postman zapewnia możliwość rejestracji i logowania, co daje możliwość zapisywania testów i ich udostępniania.
 \end{description}
 
 \section{PostgreSQL}
@@ -618,8 +662,16 @@ docker service create --name pgadmin -p 5050:80
 Przydatne komendy:
 
 \begin{itemize}
-\item ,,\textbf{docker service}'' - , 
-\item ,,\textbf{docker stack deploy}'' - , 
+\item ,,\textbf{docker swarm init}'' - inicjalizacja Docker Swarm w klastrze, 
+\item ,,\textbf{docker service}'' - służy do kontroli serwisu(kontenera) w klastrze. Dostępne parametry to:
+\textit{create} do stworzenia serwisu, \textit{ls} do zobaczenia wszystkich serwisów,
+\textit{inspect} do sprawdzenia szczegółowych informacji o serwisie,
+\textit{scale} do zwiększenia liczby replik serwisu
+\item ,,\textbf{docker stack}'' - służy do stworznia lub usunięcia jednego lub wielu serwisów 
+zdefiniowanych z pliku \textit{yaml},
+\item ,,\textbf{docker network create}'' - służy do utworzenia sieci, która służy 
+do komunikacji między serwisami. W Docker Swarmie dodatkowo 
+należy dodać wartość \textbf{--driver overlay}.
 \end{itemize}
 
 
@@ -1709,22 +1761,22 @@ bo aż 28000.
 \begin{figure}[!h]
 \centering
 \includegraphics[width=12cm]{kubernetes/ObciazenieKubernetes.pdf}
-\caption{konteneryzacją i wirtualizacją}
-\label{fig: Konteneryzacja i wirtualizacja}
+\caption{Wynik działania narzędzia Gatling dla Kubernetesa}
+\label{fig: Wynik działania narzędzia Gatling dla Kubernetesa}
 \end{figure}
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=12cm]{nomad/ObciazenieNomad.pdf}
-\caption{konteneryzacją i wirtualizacją}
-\label{fig: Konteneryzacja i wirtualizacja}
+\caption{Wynik działania narzędzia Gatling dla Nomada}
+\label{fig: Wynik działania narzędzia Gatling dla Nomada}
 \end{figure}
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=12cm]{swarm/ObiazenieDockerSwarm.pdf}
-\caption{konteneryzacją i wirtualizacją}
-\label{fig: Konteneryzacja i wirtualizacja}
+\caption{Wynik działania narzędzia Gatling dla Docker Swarma}
+\label{fig: Wynik działania narzędzia Gatling dla Docker Swarma}
 \end{figure}
 
 Obserwując użyte zasoby, można wywnioskować, że ilość udanych
